@@ -1,0 +1,10 @@
+# FAO bulk dataset (~560 MB, over GitHub's 100 MB limit). Download it from FAOSTAT:
+# "Value of Production", All Data (Normalized), into data/
+data/Value_of_Production_E_All_Data_(Normalized).csv
+*.duckdb
+venv/
+.venv/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+.env
